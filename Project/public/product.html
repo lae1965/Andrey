@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-магазин</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/product.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="header__top__container my-container">
+                <div class="header__top__left">
+                    <a href="index.html" class="header__top__left__logo">
+                        <img src="img/Logo.png" alt="Logo">
+                        <p class="header__top__left__logo__text">BRAN<span
+                                class="header__top__left__logo__text__red">D</span></p>
+                    </a>
+                    <details class="header__top__left__browse">
+                        <summary class="header__top__left__browse__text">Browse</summary>
+                        <!-------------В Ы П А Д А Ю Щ Е Е     М Е Н Ю----------------->
+                        <nav class=" header__browse-nav">
+                            <div class="header__browse-nav__block">
+                                <p class="header__browse-nav__block__heading">WOMAN</p>
+                                <ul class="header__browse-nav__block__menu">
+                                    <li><a href="product.html" class="header__browse-nav__block__menu__item">Dresses</a>
+                                    </li>
+                                    <li><a href="product.html" class="header__browse-nav__block__menu__item">Tops</a>
+                                    </li>
+                                    <li><a href="product.html"
+                                            class="header__browse-nav__block__menu__item">Sweaters/Knits</a>
+                                    </li>
+                                    <li><a href="product.html"
+                                            class="header__browse-nav__block__menu__item">Jackets/Coats</a>
+                                    </li>
+                                    <li><a href="product.html" class="header__browse-nav__block__menu__item">Blazers</a>
+                                    </li>
+                                    <li><a href="product.html" class="header__browse-nav__block__menu__item">Denim</a>
+                                    </li>
+                                    <li><a href="product.html"
+                                            class="header__browse-nav__block__menu__item">Leggings/Pants</a>
+                                    </li>
+                                    <li><a href="product.html"
+                                            class="header__browse-nav__block__menu__item">Skirts/Shorts</a>
+                                    </li>
+                                    <li><a href="product.html"
+                                            class="header__browse-nav__block__menu__item">Accessories</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="header__browse-nav__block">
+                                <p class="header__browse-nav__block__heading">MAN</p>
+                                <ul class="header__browse-nav__block__menu">
+                                    <li><a href="product.html" class="header__browse-nav__block__menu__item">Tees/Tank
+                                            tops</a>
+                                    </li>
+                                    <li><a href="product.html"
+                                            class="header__browse-nav__block__menu__item">Shirts/Polos</a>
+                                    </li>
+                                    <li><a href="product.html"
+                                            class="header__browse-nav__block__menu__item">Sweaters</a></li>
+                                    <li><a href="product.html"
+                                            class="header__browse-nav__block__menu__item">Sweatshirts/Hoodies</a>
+                                    </li>
+                                    <li><a href="product.html" class="header__browse-nav__block__menu__item">Blazers</a>
+                                    </li>
+                                    <li><a href="product.html"
+                                            class="header__browse-nav__block__menu__item">Jackets/vests</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <!------------------------------------------------------------->
+                    </details>
+                    <form class="header__top__left__seach">
+                        <input type="text" placeholder="Search for Item..." class="header__top__left__seach__text">
+                        <button type="submit" class="header__top__left__seach__submit"><i
+                                class="fas fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="header__top__right">
+                    <div class="header__top__right__cart">
+                        <a href="cart.html"><img src="img/Cart.svg" alt="Cart"></a>
+                        <!-------------В Ы П А Д А Ю Щ Е Е     М Е Н Ю----------------->
+                        <nav class="header__cart-nav">
+                            <a href="single-page.html">
+                                <div class="header__cart-nav__block">
+                                    <img src="img/Cart-Photo1.png" alt="Cart-Photo1"
+                                        class="header__cart-nav__block__image">
+                                    <div class="header__cart-nav__block__content">
+                                        <p class="header__cart-nav__block__content__name">Rebox Zane</p>
+                                        <div class="header__cart-nav__block__content__stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                        <p class="header__cart-nav__block__content__price">1&nbsp;<span
+                                                class="header__cart-nav__block__content__price__X">&nbsp;&nbsp;X&nbsp;</span>&nbsp;&nbsp;$250
+                                        </p>
+                                    </div>
+                                    <i class="fas fa-times-circle header__cart-nav__block__delete"></i>
+                                </div>
+                            </a>
+                            <a href="single-page.html">
+                                <div class="header__cart-nav__block">
+                                    <img src="img/Cart-Photo2.png" alt="Cart-Photo2"
+                                        class="header__cart-nav__block__image">
+                                    <div class="header__cart-nav__block__content">
+                                        <p class="header__cart-nav__block__content__name">Rebox Zane</p>
+                                        <div class="header__cart-nav__block__content__stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                        <p class="header__cart-nav__block__content__price">1&nbsp;<span
+                                                class="header__cart-nav__block__content__price__X">&nbsp;&nbsp;X&nbsp;</span>&nbsp;&nbsp;$250
+                                        </p>
+                                    </div>
+                                    <i class="fas fa-times-circle header__cart-nav__block__delete"></i>
+                                </div>
+                            </a>
+                            <div class="header__cart-nav__total-price">
+                                <p>TOTAL</p>
+                                <p>$500.00</p>
+                            </div>
+                            <a href="checkout.html" class="header__cart-nav__button header__cart-nav__button__check">
+                                Checkout</a>
+                            <a href="cart.html" class="header__cart-nav__button header__cart-nav__button__cart">
+                                Go to cart</a>
+                        </nav>
+                        <!------------------------------------------------------------->
+                    </div>
+                    <details class="header__top__right__account">
+                        <summary class="header__top__right__account__text">My Account</summary>
+                    </details>
+                </div>
+            </div>
+        </div>
+        <div class="my-container">
+            <nav class="header__bottom">
+                <ul class="header__bottom__nav">
+                    <li class="header__bottom__nav__li"><a href="#" class="header__bottom__nav__item">HOME</a>
+                        <!-----------------------М Е Г А     М Е Н Ю--------------------------->
+                        <nav class="header__megamenu">
+                            <div class="header__megamenu__block">
+                                <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                <ul class="header__megamenu__block__menu">
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Dresses</a>
+                                    </li>
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Sweaters/Knits</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Jackets/Coats</a></li>
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Blazers</a>
+                                    </li>
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Denim</a>
+                                    </li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Leggings/Pants</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Skirts/Shorts</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Accessories</a></li>
+                                </ul>
+                            </div>
+                            <div class="header__megamenu__block">
+                                <div class="header__megamenu__block__half">
+                                    <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                    <ul class="header__megamenu__block__menu">
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Dresses</a></li>
+                                        <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Sweaters/Knits</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Jackets/Coats</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="header__megamenu__block__half">
+                                    <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                    <ul class="header__megamenu__block__menu">
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Dresses</a></li>
+                                        <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Sweaters/Knits</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header__megamenu__block">
+                                <div class="header__megamenu__block__half header__megamenu__block__half__before-photo">
+                                    <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                    <ul class="header__megamenu__block__menu">
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Dresses</a></li>
+                                        <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Sweaters/Knits</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Jackets/Coats</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="product.html">
+                                    <div class="header__megamenu__block__with-photo">
+                                        <p class="header__megamenu__block__with-photo__text">Super<br>sale!</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </nav>
+                        <!--------------------------------------------------------------------->
+                    </li>
+                    <li class="header__bottom__nav__li"><a href="#" class="header__bottom__nav__item">MEN</a>
+                        <!-----------------------М Е Г А     М Е Н Ю--------------------------->
+                        <nav class="header__megamenu">
+                            <div class="header__megamenu__block">
+                                <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                <ul class="header__megamenu__block__menu">
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Dresses</a>
+                                    </li>
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Sweaters/Knits</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Jackets/Coats</a></li>
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Blazers</a>
+                                    </li>
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Denim</a>
+                                    </li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Leggings/Pants</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Skirts/Shorts</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Accessories</a></li>
+                                </ul>
+                            </div>
+                            <div class="header__megamenu__block">
+                                <div class="header__megamenu__block__half">
+                                    <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                    <ul class="header__megamenu__block__menu">
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Dresses</a></li>
+                                        <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Sweaters/Knits</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Jackets/Coats</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="header__megamenu__block__half">
+                                    <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                    <ul class="header__megamenu__block__menu">
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Dresses</a></li>
+                                        <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Sweaters/Knits</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header__megamenu__block">
+                                <div class="header__megamenu__block__half header__megamenu__block__half__before-photo">
+                                    <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                    <ul class="header__megamenu__block__menu">
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Dresses</a></li>
+                                        <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Sweaters/Knits</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Jackets/Coats</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="product.html">
+                                    <div class="header__megamenu__block__with-photo">
+                                        <p class="header__megamenu__block__with-photo__text">Super<br>sale!</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </nav>
+                        <!--------------------------------------------------------------------->
+                    </li>
+                    <li class="header__bottom__nav__li"><a href="#" class="header__bottom__nav__item">WOMEN</a>
+                        <!-----------------------М Е Г А     М Е Н Ю--------------------------->
+                        <nav class="header__megamenu">
+                            <div class="header__megamenu__block">
+                                <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                <ul class="header__megamenu__block__menu">
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Dresses</a>
+                                    </li>
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Sweaters/Knits</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Jackets/Coats</a></li>
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Blazers</a>
+                                    </li>
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Denim</a>
+                                    </li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Leggings/Pants</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Skirts/Shorts</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Accessories</a></li>
+                                </ul>
+                            </div>
+                            <div class="header__megamenu__block">
+                                <div class="header__megamenu__block__half">
+                                    <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                    <ul class="header__megamenu__block__menu">
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Dresses</a></li>
+                                        <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Sweaters/Knits</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Jackets/Coats</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="header__megamenu__block__half">
+                                    <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                    <ul class="header__megamenu__block__menu">
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Dresses</a></li>
+                                        <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Sweaters/Knits</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header__megamenu__block">
+                                <div class="header__megamenu__block__half header__megamenu__block__half__before-photo">
+                                    <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                    <ul class="header__megamenu__block__menu">
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Dresses</a></li>
+                                        <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Sweaters/Knits</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Jackets/Coats</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="product.html">
+                                    <div class="header__megamenu__block__with-photo">
+                                        <p class="header__megamenu__block__with-photo__text">Super<br>sale!</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </nav>
+                        <!--------------------------------------------------------------------->
+                    </li>
+                    <li class="header__bottom__nav__li"><a href="#" class="header__bottom__nav__item">KIDS</a>
+                        <!-----------------------М Е Г А     М Е Н Ю--------------------------->
+                        <nav class="header__megamenu">
+                            <div class="header__megamenu__block">
+                                <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                <ul class="header__megamenu__block__menu">
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Dresses</a>
+                                    </li>
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Sweaters/Knits</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Jackets/Coats</a></li>
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Blazers</a>
+                                    </li>
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Denim</a>
+                                    </li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Leggings/Pants</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Skirts/Shorts</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Accessories</a></li>
+                                </ul>
+                            </div>
+                            <div class="header__megamenu__block">
+                                <div class="header__megamenu__block__half">
+                                    <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                    <ul class="header__megamenu__block__menu">
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Dresses</a></li>
+                                        <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Sweaters/Knits</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Jackets/Coats</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="header__megamenu__block__half">
+                                    <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                    <ul class="header__megamenu__block__menu">
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Dresses</a></li>
+                                        <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Sweaters/Knits</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header__megamenu__block">
+                                <div class="header__megamenu__block__half header__megamenu__block__half__before-photo">
+                                    <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                    <ul class="header__megamenu__block__menu">
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Dresses</a></li>
+                                        <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Sweaters/Knits</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Jackets/Coats</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="product.html">
+                                    <div class="header__megamenu__block__with-photo">
+                                        <p class="header__megamenu__block__with-photo__text">Super<br>sale!</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </nav>
+                        <!--------------------------------------------------------------------->
+                    </li>
+                    <li class="header__bottom__nav__li"><a href="#" class="header__bottom__nav__item">ACCOSERIESE</a>
+                        <!-----------------------М Е Г А     М Е Н Ю--------------------------->
+                        <nav class="header__megamenu">
+                            <div class="header__megamenu__block">
+                                <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                <ul class="header__megamenu__block__menu">
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Dresses</a>
+                                    </li>
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Sweaters/Knits</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Jackets/Coats</a></li>
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Blazers</a>
+                                    </li>
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Denim</a>
+                                    </li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Leggings/Pants</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Skirts/Shorts</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Accessories</a></li>
+                                </ul>
+                            </div>
+                            <div class="header__megamenu__block">
+                                <div class="header__megamenu__block__half">
+                                    <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                    <ul class="header__megamenu__block__menu">
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Dresses</a></li>
+                                        <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Sweaters/Knits</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Jackets/Coats</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="header__megamenu__block__half">
+                                    <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                    <ul class="header__megamenu__block__menu">
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Dresses</a></li>
+                                        <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Sweaters/Knits</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header__megamenu__block">
+                                <div class="header__megamenu__block__half header__megamenu__block__half__before-photo">
+                                    <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                    <ul class="header__megamenu__block__menu">
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Dresses</a></li>
+                                        <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Sweaters/Knits</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Jackets/Coats</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="product.html">
+                                    <div class="header__megamenu__block__with-photo">
+                                        <p class="header__megamenu__block__with-photo__text">Super<br>sale!</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </nav>
+                        <!--------------------------------------------------------------------->
+                    </li>
+                    <li class="header__bottom__nav__li"><a href="#" class="header__bottom__nav__item">FEATURED</a>
+                        <!-----------------------М Е Г А     М Е Н Ю--------------------------->
+                        <nav class="header__megamenu header__megamenu__left">
+                            <div class="header__megamenu__block">
+                                <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                <ul class="header__megamenu__block__menu">
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Dresses</a>
+                                    </li>
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Sweaters/Knits</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Jackets/Coats</a></li>
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Blazers</a>
+                                    </li>
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Denim</a>
+                                    </li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Leggings/Pants</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Skirts/Shorts</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Accessories</a></li>
+                                </ul>
+                            </div>
+                            <div class="header__megamenu__block">
+                                <div class="header__megamenu__block__half">
+                                    <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                    <ul class="header__megamenu__block__menu">
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Dresses</a></li>
+                                        <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Sweaters/Knits</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Jackets/Coats</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="header__megamenu__block__half">
+                                    <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                    <ul class="header__megamenu__block__menu">
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Dresses</a></li>
+                                        <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Sweaters/Knits</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header__megamenu__block">
+                                <div class="header__megamenu__block__half header__megamenu__block__half__before-photo">
+                                    <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                    <ul class="header__megamenu__block__menu">
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Dresses</a></li>
+                                        <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Sweaters/Knits</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Jackets/Coats</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="product.html">
+                                    <div class="header__megamenu__block__with-photo">
+                                        <p class="header__megamenu__block__with-photo__text">Super<br>sale!</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </nav>
+                        <!--------------------------------------------------------------------->
+                    </li>
+                    <li class="header__bottom__nav__li"><a href="#" class="header__bottom__nav__item">HOT DEALS</a>
+                        <!-----------------------М Е Г А     М Е Н Ю--------------------------->
+                        <nav class="header__megamenu header__megamenu__left">
+                            <div class="header__megamenu__block">
+                                <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                <ul class="header__megamenu__block__menu">
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Dresses</a>
+                                    </li>
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Sweaters/Knits</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Jackets/Coats</a></li>
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Blazers</a>
+                                    </li>
+                                    <li><a href="product.html" class="header__megamenu__block__menu__item">Denim</a>
+                                    </li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Leggings/Pants</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Skirts/Shorts</a></li>
+                                    <li><a href="product.html"
+                                            class="header__megamenu__block__menu__item">Accessories</a></li>
+                                </ul>
+                            </div>
+                            <div class="header__megamenu__block">
+                                <div class="header__megamenu__block__half">
+                                    <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                    <ul class="header__megamenu__block__menu">
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Dresses</a></li>
+                                        <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Sweaters/Knits</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Jackets/Coats</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="header__megamenu__block__half">
+                                    <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                    <ul class="header__megamenu__block__menu">
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Dresses</a></li>
+                                        <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Sweaters/Knits</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header__megamenu__block">
+                                <div class="header__megamenu__block__half header__megamenu__block__half__before-photo">
+                                    <h3 class="header__megamenu__block__heading">WOMEN</h3>
+                                    <ul class="header__megamenu__block__menu">
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Dresses</a></li>
+                                        <li><a href="product.html" class="header__megamenu__block__menu__item">Tops</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Sweaters/Knits</a>
+                                        </li>
+                                        <li><a href="product.html"
+                                                class="header__megamenu__block__menu__item">Jackets/Coats</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="product.html">
+                                    <div class="header__megamenu__block__with-photo">
+                                        <p class="header__megamenu__block__with-photo__text">Super<br>sale!</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </nav>
+                        <!--------------------------------------------------------------------->
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="bread-crumb">
+        <div class="bread-crumb__content my-container">
+            <p class="bread-crumb__content__text">New Arrivals</p>
+            <ul class="bread-crumb__content__menu">
+                <li><a href="index.html" class="bread-crumb__content__menu__item">Home</a></li>
+                <li><a href="single-page.html" class="bread-crumb__content__menu__item">Men</a></li>
+                <li><a href="single-page.html" class="bread-crumb__content__menu__item">New Arrivals</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="main my-container">
+        <nav class="main__saidbar">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Category
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul class="accordion-body__menu">
+                                <li><a href="#" class="accordion-body__menu__item">Accessories</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Bags</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Denim</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Hoodies & Sweatshirts</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Jackets & Coats</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Pants</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Polos</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Shirts</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Shoes</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Shorts</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Sweaters & Knits</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">T-Shirts</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Tanks</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            BRAND
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul class="accordion-body__menu">
+                                <li><a href="#" class="accordion-body__menu__item">Accessories</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Bags</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Denim</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Hoodies & Sweatshirts</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Jackets & Coats</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Pants</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Polos</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Shirts</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Shoes</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Shorts</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Sweaters & Knits</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">T-Shirts</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Tanks</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Designer
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul class="accordion-body__menu">
+                                <li><a href="#" class="accordion-body__menu__item">Accessories</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Bags</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Denim</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Hoodies & Sweatshirts</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Jackets & Coats</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Pants</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Polos</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Shirts</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Shoes</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Shorts</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Sweaters & Knits</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">T-Shirts</a></li>
+                                <li><a href="#" class="accordion-body__menu__item">Tanks</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="main__content">
+            <div class="main__content__filter-top">
+                <div class="main__content__block">
+                    <h3 class="main__content__block__heading">Trending now</h3>
+                    <ul class="main__content__block__menu">
+                        <li><a href="#" class="main__content__block__menu__item">Bohemian</a></li>
+                        <li><a href="#" class="main__content__block__menu__item">Floral</a></li>
+                        <li><a href="#" class="main__content__block__menu__item">Lace</a></li>
+                    </ul>
+                    <ul class="main__content__block__menu">
+                        <li><a href="#" class="main__content__block__menu__item">Floral</a></li>
+                        <li><a href="#" class="main__content__block__menu__item">Lace</a></li>
+                        <li><a href="#" class="main__content__block__menu__item">Bohemian</a></li>
+                    </ul>
+                </div>
+                <div class="main__content__block">
+                    <h3 class="main__content__block__heading">Size</h3>
+                    <div class="main__content__block__size">
+                        <div class="main__content__block__size__group">
+                            <input type="checkbox" id="sizeXXS">
+                            <label for="sizeXXS" class="main__content__block__size__group__code">XXS</label>
+                        </div>
+                        <div class="main__content__block__size__group">
+                            <input type="checkbox" id="sizeXS">
+                            <label for="sizeXS" class="main__content__block__size__group__code">XS</label>
+                        </div>
+                        <div class="main__content__block__size__group">
+                            <input type="checkbox" id="sizeS">
+                            <label for="sizeS" class="main__content__block__size__group__code">S</label>
+                        </div>
+                        <div class="main__content__block__size__group">
+                            <input type="checkbox" id="sizeM">
+                            <label for="sizeM" class="main__content__block__size__group__code">M</label>
+                        </div>
+                        <div class="main__content__block__size__group">
+                            <input type="checkbox" id="sizeL">
+                            <label for="sizeL" class="main__content__block__size__group__code">L</label>
+                        </div>
+                        <div class="main__content__block__size__group">
+                            <input type="checkbox" id="sizeXL">
+                            <label for="sizeXL" class="main__content__block__size__group__code">XL</label>
+                        </div>
+                        <div class="main__content__block__size__group">
+                            <input type="checkbox" id="sizeXXL">
+                            <label for="sizeXXL" class="main__content__block__size__group__code">XXL</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__content__block">
+                    <h3 class="main__content__block__heading">Price</h3>
+                    <div class="main__content__block__line-grey"></div>
+                    <div class="main__content__block__line-red"></div>
+                    <div class="main__content__block__range">
+                        <span>$52</span>
+                        <span>$400</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main__content__filter-bottom">
+                <div class="main__content__filter-bottom__block">
+                    <span class="main__content__filter-bottom__block__item">Sort By</span>
+                    <details>
+                        <summary
+                            class="main__content__filter-bottom__block__item main__content__filter-bottom__block__menu">
+                            Name</summary>
+                    </details>
+                </div>
+                <div class="main__content__filter-bottom__block">
+                    <span class="main__content__filter-bottom__block__item">Show</span>
+                    <details>
+                        <summary
+                            class="main__content__filter-bottom__block__item main__content__filter-bottom__block__menu">
+                            09</summary>
+                    </details>
+                </div>
+            </div>
+            <div class="main__content__fetured">
+                <div class="fetured__article">
+                    <div class="fetured__article__card">
+                        <a href="single-page.html">
+                            <img src="img/Fetured13.png" alt="Fetured13" class="fetured__article__card__image">
+                            <div class="fetured__article__card__fon"></div>
+                            <div>
+                                <p class="fetured__article__card__text">MANGO PEOPLE T-SHIRT</p>
+                                <p class="fetured__article__card__price">$52.00</p>
+                            </div>
+                        </a>
+                        <a href="cart.html" class="fetured__article__card__cart">
+                            <img src="img/Cart-White.svg" alt="Cart" class="fetured__article__card__cart__image">
+                            <p class="fetured__article__card__cart__text">Add to Cart</p>
+                        </a>
+                    </div>
+                    <div class="fetured__article__card">
+                        <a href="single-page.html">
+                            <img src="img/Fetured14.png" alt="Fetured14" class="fetured__article__card__image">
+                            <div class="fetured__article__card__fon"></div>
+                            <div>
+                                <p class="fetured__article__card__text">MANGO PEOPLE T-SHIRT</p>
+                                <p class="fetured__article__card__price">$52.00</p>
+                            </div>
+                        </a>
+                        <a href="cart.html" class="fetured__article__card__cart">
+                            <img src="img/Cart-White.svg" alt="Cart" class="fetured__article__card__cart__image">
+                            <p class="fetured__article__card__cart__text">Add to Cart</p>
+                        </a>
+                    </div>
+                    <div class="fetured__article__card">
+                        <a href="single-page.html">
+                            <img src="img/Fetured3.png" alt="Fetured3" class="fetured__article__card__image">
+                            <div class="fetured__article__card__fon"></div>
+                            <div>
+                                <p class="fetured__article__card__text">MANGO PEOPLE T-SHIRT</p>
+                                <p class="fetured__article__card__price">$52.00</p>
+                            </div>
+                        </a>
+                        <a href="cart.html" class="fetured__article__card__cart">
+                            <img src="img/Cart-White.svg" alt="Cart" class="fetured__article__card__cart__image">
+                            <p class="fetured__article__card__cart__text">Add to Cart</p>
+                        </a>
+                    </div>
+                    <div class="fetured__article__card">
+                        <a href="single-page.html">
+                            <img src="img/Fetured15.png" alt="Fetured15" class="fetured__article__card__image">
+                            <div class="fetured__article__card__fon"></div>
+                            <div>
+                                <p class="fetured__article__card__text">MANGO PEOPLE T-SHIRT</p>
+                                <p class="fetured__article__card__price">$52.00</p>
+                            </div>
+                        </a>
+                        <a href="cart.html" class="fetured__article__card__cart">
+                            <img src="img/Cart-White.svg" alt="Cart" class="fetured__article__card__cart__image">
+                            <p class="fetured__article__card__cart__text">Add to Cart</p>
+                        </a>
+                    </div>
+                    <div class="fetured__article__card">
+                        <a href="single-page.html">
+                            <img src="img/Fetured8.png" alt="Fetured8" class="fetured__article__card__image"
+                                style="object-position: center 10%;">
+                            <div class="fetured__article__card__fon"></div>
+                            <div>
+                                <p class="fetured__article__card__text">MANGO PEOPLE T-SHIRT</p>
+                                <p class="fetured__article__card__price">$52.00</p>
+                            </div>
+                        </a>
+                        <a href="cart.html" class="fetured__article__card__cart">
+                            <img src="img/Cart-White.svg" alt="Cart" class="fetured__article__card__cart__image">
+                            <p class="fetured__article__card__cart__text">Add to Cart</p>
+                        </a>
+                    </div>
+                    <div class="fetured__article__card">
+                        <a href="single-page.html">
+                            <img src="img/Fetured16.png" alt="Fetured16" class="fetured__article__card__image">
+                            <div class="fetured__article__card__fon"></div>
+                            <div>
+                                <p class="fetured__article__card__text">MANGO PEOPLE T-SHIRT</p>
+                                <p class="fetured__article__card__price">$52.00</p>
+                            </div>
+                        </a>
+                        <a href="cart.html" class="fetured__article__card__cart">
+                            <img src="img/Cart-White.svg" alt="Cart" class="fetured__article__card__cart__image">
+                            <p class="fetured__article__card__cart__text">Add to Cart</p>
+                        </a>
+                    </div>
+                    <div class="fetured__article__card">
+                        <a href="single-page.html">
+                            <img src="img/Fetured6.png" alt="Fetured6" class="fetured__article__card__image"
+                                style="object-position: center 10%;">
+                            <div class="fetured__article__card__fon"></div>
+                            <div>
+                                <p class="fetured__article__card__text">MANGO PEOPLE T-SHIRT</p>
+                                <p class="fetured__article__card__price">$52.00</p>
+                            </div>
+                        </a>
+                        <a href="cart.html" class="fetured__article__card__cart">
+                            <img src="img/Cart-White.svg" alt="Cart" class="fetured__article__card__cart__image">
+                            <p class="fetured__article__card__cart__text">Add to Cart</p>
+                        </a>
+                    </div>
+                    <div class="fetured__article__card">
+                        <a href="single-page.html">
+                            <img src="img/Fetured17.png" alt="Fetured17" class="fetured__article__card__image"
+                                style="object-position: center 20%;">
+                            <div class="fetured__article__card__fon"></div>
+                            <div>
+                                <p class="fetured__article__card__text">MANGO PEOPLE T-SHIRT</p>
+                                <p class="fetured__article__card__price">$52.00</p>
+                            </div>
+                        </a>
+                        <a href="cart.html" class="fetured__article__card__cart">
+                            <img src="img/Cart-White.svg" alt="Cart" class="fetured__article__card__cart__image">
+                            <p class="fetured__article__card__cart__text">Add to Cart</p>
+                        </a>
+                    </div>
+                    <div class="fetured__article__card">
+                        <a href="single-page.html">
+                            <img src="img/Fetured18.png" alt="Fetured18" class="fetured__article__card__image">
+                            <div class="fetured__article__card__fon"></div>
+                            <div>
+                                <p class="fetured__article__card__text">MANGO PEOPLE T-SHIRT</p>
+                                <p class="fetured__article__card__price">$52.00</p>
+                            </div>
+                        </a>
+                        <a href="cart.html" class="fetured__article__card__cart">
+                            <img src="img/Cart-White.svg" alt="Cart" class="fetured__article__card__cart__image">
+                            <p class="fetured__article__card__cart__text">Add to Cart</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="main__content__pages">
+                <ul class="main__content__pages__list">
+                    <li class="main__content__pages__list__item"><a href="#"
+                            class="main__content__pages__list__item__link"><i class="fas fa-angle-left"></i></a></li>
+                    <li class="main__content__pages__list__item"><a href="#"
+                            class="main__content__pages__list__item__link">1</a></li>
+                    <li class="main__content__pages__list__item"><a href="#"
+                            class="main__content__pages__list__item__link">2</a></li>
+                    <li class="main__content__pages__list__item"><a href="#"
+                            class="main__content__pages__list__item__link">3</a></li>
+                    <li class="main__content__pages__list__item"><a href="#"
+                            class="main__content__pages__list__item__link">4</a></li>
+                    <li class="main__content__pages__list__item"><a href="#"
+                            class="main__content__pages__list__item__link">5</a></li>
+                    <li class="main__content__pages__list__item"><a href="#"
+                            class="main__content__pages__list__item__link">6</a></li>
+                    <li class="main__content__pages__list__item">.....</li>
+                    <li class="main__content__pages__list__item"><a href="#"
+                            class="main__content__pages__list__item__link">20</a></li>
+                    <li class="main__content__pages__list__item"><a href="#"
+                            class="main__content__pages__list__item__link"><i class="fas fa-angle-right"></i></a></li>
+                </ul>
+                <a href="#" class="main__content__pages__all">View All</a>
+            </div>
+        </section>
+    </section>
+    <section class="advantages">
+        <div class="advantages__content my-container">
+            <article class="advantages__content__block">
+                <img src="img/Car-Icon.png" alt="Car-Icon" class="advantages__content__block__icon">
+                <div class="advantages__content__block__description">
+                    <h3 class="advantages__content__block__heading">Free Delivery</h3>
+                    <p class="advantages__content__block__text">Worldwide delivery on all. Authorit tively morph
+                        next-generation innov tion with extensive models.</p>
+                </div>
+            </article>
+            <article class="advantages__content__block">
+                <img src="img/Discount-Icon.png" alt="Discount-Icon" class="advantages__content__block__icon"
+                    style="margin-right: 6px;">
+                <div class="advantages__content__block__description">
+                    <h3 class="advantages__content__block__heading">Sales & discounts</h3>
+                    <p class="advantages__content__block__text">Worldwide delivery on all. Authorit tively morph
+                        next-generation innov tion with extensive models.</p>
+                </div>
+            </article>
+            <article class="advantages__content__block">
+                <img src="img/Crown-Icon.png" alt="Crown-Icon" class="advantages__content__block__icon">
+                <div class="advantages__content__block__description">
+                    <h3 class="advantages__content__block__heading">Quality assurance</h3>
+                    <p class="advantages__content__block__text">Worldwide delivery on all. Authorit tively morph
+                        next-generation innov tion with extensive models.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="comment">
+        <div class="comment__fon">
+            <div class="comment__container my-container">
+                <div class="comment__for-line">
+                    <figure class="comment__received">
+                        <img src="img/Comment-Women.png" alt="" class="comment__received__photo">
+                        <figcaption class="comment__received__content">
+                            <p class="comment__received__content__text">“Vestibulum quis porttitor dui! Quisque viverra
+                                nunc
+                                mi,
+                                a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                            <p class="comment__received__content__family">Bin Burhan</p>
+                            <p class="comment__received__content__country">Dhaka, Bd</p>
+                            <div class="comment__received__content__bar">
+                                <div class="comment__received__content__bar__item"></div>
+                                <div class="comment__received__content__bar__item"></div>
+                                <div class="comment__received__content__bar__item"></div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="comment__sent">
+                    <p class="comment__sent__text">SUBSCRIBE<br><span class="comment__sent__text__small">FOR OUR
+                            NEWLETTER AND PROMOTION</span></p>
+                    <form class="comment__sent__email">
+                        <input type="email" placeholder="Enter Your Email" class="comment__sent__email__enter">
+                        <button type="submit" class="comment__sent__email__submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <section class="footer__top my-container">
+            <article class="footer__top__brand">
+                <a href="index.html" class="header__top__left__logo">
+                    <img src="img/Logo.png" alt="Logo">
+                    <p class="header__top__left__logo__text">BRAN<span
+                            class="header__top__left__logo__text__red">D</span>
+                    </p>
+                </a>
+                <p class="footer__top__brand__text">Objectively transition extensive data rather than cross functional
+                    solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits.
+                    Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.<br><br>
+                    Efficiently plagiarize 24/365 action items and focused infomediaries.<br>
+                    Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+                </p>
+            </article>
+            <nav class="footer__top__block">
+                <h3 class="footer__top__block__heading">COMPANY</h3>
+                <ul class="footer__top__block__menu">
+                    <li class="footer__top__block__menu__item"><a href="#">Home</a></li>
+                    <li class="footer__top__block__menu__item"><a href="#">Shop</a></li>
+                    <li class="footer__top__block__menu__item"><a href="#">About</a></li>
+                    <li class="footer__top__block__menu__item"><a href="#">How It Work</a></li>
+                    <li class="footer__top__block__menu__item"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <nav class="footer__top__block">
+                <h3 class="footer__top__block__heading">INFORMATION</h3>
+                <ul class="footer__top__block__menu">
+                    <li class="footer__top__block__menu__item"><a href="#">Tearms & Condition</a></li>
+                    <li class="footer__top__block__menu__item"><a href="#">Privacy Policy</a></li>
+                    <li class="footer__top__block__menu__item"><a href="#">How to Buy</a></li>
+                    <li class="footer__top__block__menu__item"><a href="#">How to Sell</a></li>
+                    <li class="footer__top__block__menu__item"><a href="#">Promotion</a></li>
+                </ul>
+            </nav>
+            <nav class="footer__top__block">
+                <h3 class="footer__top__block__heading">SHOP CATEGORY</h3>
+                <ul class="footer__top__block__menu">
+                    <li class="footer__top__block__menu__item"><a href="#">Men</a></li>
+                    <li class="footer__top__block__menu__item"><a href="#">Women</a></li>
+                    <li class="footer__top__block__menu__item"><a href="#">Child</a></li>
+                    <li class="footer__top__block__menu__item"><a href="#">Apparel</a></li>
+                    <li class="footer__top__block__menu__item"><a href="#">Brows All</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="footer__bottom">
+            <div class="footer__bottom__container my-container">
+                <p class="footer__bottom__text">&copy; 2017 Brand All Rights Reserved.</p>
+                <nav class="footer__bottom__networks">
+                    <a href="#">
+                        <div class="footer__bottom__networks__item"><i class="fab fa-facebook-f"></i></div>
+                    </a>
+                    <a href="#">
+                        <div class="footer__bottom__networks__item"><i class="fab fa-twitter"></i></div>
+                    </a>
+                    <a href="#">
+                        <div class="footer__bottom__networks__item"><i class="fab fa-instagram"></i></div>
+                    </a>
+                    <a href="#">
+                        <div class="footer__bottom__networks__item"><i class="fab fa-pinterest-p"></i></div>
+                    </a>
+                    <a href="#">
+                        <div class="footer__bottom__networks__item"><i class="fab fa-google-plus-g"></i></div>
+                    </a>
+                </nav>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/31cd1bd6cf.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

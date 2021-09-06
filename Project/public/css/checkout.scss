@@ -1,0 +1,169 @@
+.requisite {
+    padding: 57px 0 93px;
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+
+    &__heading {
+        font-size: 13px;
+        line-height: 1.2;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #222222;
+        margin-bottom: 15px;
+    }
+
+    &__text {
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 400;
+        text-transform: none;
+        color: #b3b2b2;
+        margin-bottom: 33px;
+    }
+
+    &__button {
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #4a4a4a;
+        padding: 19px 54px;
+        background-color: #ffffff;
+        border: 1px solid #eaeaea;
+        border-radius: 0;
+        margin-top: 23px;
+        transition: color .3s, background-color .3s;
+
+        &:hover {
+            background-color: #ef5b70;
+            color: #ffffff
+        }
+    }
+
+    &__item {
+        border-bottom: 1px solid #e8e8e8;
+
+        &__content {
+            &__name {
+                display: block;
+                padding: 33px 0;
+
+                &::-webkit-details-marker {
+                    display: none;
+                }
+            }
+        }
+
+        &__block {
+            display: flex;
+            padding: 39px 0 79px 35px;
+        }
+
+        &__register {
+            width: 50%;
+
+            &__choice {
+                margin-right: 14px;
+                margin-bottom: 16px;
+
+                &__text {
+                    font-size: 12px;
+                    line-height: 1.2;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    color: #222222;
+                }
+            }
+
+            &__link {
+                display: block;
+                font-size: 13px;
+                line-height: 20px;
+                font-weight: 400;
+                color: #b3b2b2;
+                text-transform: none;
+                text-decoration: none;
+                margin-bottom: 15px;
+
+                &::before {
+                    font-family: FontAwesome;
+                    content: '\f101';
+                    margin-right: 4px;
+                }
+
+                &:hover {
+                    color: #ef5b70;
+                }
+            }
+        }
+
+        &__login {
+            width: 50%;
+
+            &__enter {
+                margin-bottom: 22px;
+                width: 180px;
+                height: 50px;
+                background-color: #ffffff;
+                border: 1px solid #eaeaea;
+                border-radius: 0;
+                padding-left: 10px;
+                outline: none;
+
+                &-heading {
+                    font-size: 12px;
+                    line-height: 20px;
+                    font-weight: 400;
+                    color: #222222;
+                    margin-bottom: 9px;
+
+                    &::after {
+                        content: '*';
+                        margin-left: 5px;
+                        font-size: 17px;
+                        line-height: 20px;
+                        font-weight: 400;
+                        color: #ff0d0d;
+                    }
+                }
+            }
+
+            &__warning {
+                font-size: 13px;
+                line-height: 20px;
+                font-weight: 400;
+                color: #ff0d0d;
+                text-transform: none;
+                margin-bottom: 9px;
+            }
+
+            &__sent {
+                &__fogot {
+                    font-size: 14px;
+                    line-height: 20px;
+                    font-weight: 400;
+                    color: #222222;
+                    text-transform: none;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: #ef5b70;
+                    }
+                }
+
+                &__submit {
+                    padding-right: 82px;
+                    margin-right: 32px;
+                }
+            }
+        }
+    }
+}
+
+.comment {
+    margin-top: 0;
+}

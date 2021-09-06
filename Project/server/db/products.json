@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "img": "img/Fetured1.png",
+        "productName": "Футболка мужская",
+        "price": 28
+    }, 
+    {
+        "id": 2,
+        "img": "img/Fetured2.png",
+        "productName": "Блузка женская",
+        "price": 37
+    }, 
+    {
+        "id": 3,
+        "img": "img/Fetured3.png",
+        "productName": "Куртка спортивная осенняя",
+        "price": 152
+    }, 
+    {
+        "id": 4,
+        "img": "img/Fetured4.png",
+        "productName": "Платье летнее",
+        "price": 58
+    }, 
+    {
+        "id": 5,
+        "img": "img/Fetured5.png",
+        "productName": "Жакет женский",
+        "price": 83
+    }, 
+    {
+        "id": 6,
+        "img": "img/Fetured6.png",
+        "productName": "Костюм женский",
+        "price": 325
+    }, 
+    {
+        "id": 7,
+        "img": "img/Fetured7.png",
+        "productName": "Бриджи",
+        "price": 52
+    }, 
+    {
+        "id": 8,
+        "img": "img/Fetured8.png",
+        "productName": "Шорты",
+        "price": 34
+    }
+]
