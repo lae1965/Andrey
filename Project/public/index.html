@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-магазин</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div id="app">
+        <header class="header">
+            <div class="header__top">
+                <div class="header__top__container my-container">
+                    <div class="header__top__left">
+                        <a href="index.html" class="header__top__left__logo">
+                            <img src="img/Logo.png" alt="Logo">
+                            <p class="header__top__left__logo__text">BRAN<span
+                                    class="header__top__left__logo__text__red">D</span></p>
+                        </a>
+                        <details class="header__top__left__browse">
+                            <summary class="header__top__left__browse__text">Browse</summary>
+                            <!-------------В Ы П А Д А Ю Щ Е Е     М Е Н Ю----------------->
+                            <nav class=" header__browse-nav">
+
+                                <browse title="WOMEN" :menu="browseMenu1"></browse>
+                                <browse title="MEN" :menu="browseMenu2"></browse>
+
+                            </nav>
+                            <!------------------------------------------------------------->
+                        </details>
+
+                        <filters></filters>
+
+                    </div>
+                    <div class="header__top__right">
+                        <div class="header__top__right__cart">
+                            <a href="cart.html"><img src="img/Cart.svg" alt="Cart"></a>
+                            <!------------- К О Р З И Н А ----------------->
+                            <cart-list ref="cart"></cart-list>
+                            <!------------------------------------------------------------->
+                        </div>
+                        <details class="header__top__right__account">
+                            <summary class="header__top__right__account__text">My Account</summary>
+                        </details>
+                    </div>
+                </div>
+            </div>
+            <div class="my-container">
+                <nav class="header__bottom">
+                    <ul class="header__bottom__nav">
+                        <li v-for="(item, i) in megaMenu" class="header__bottom__nav__li">
+                            <a href="#" class="header__bottom__nav__item">{{ item }}</a>
+
+                            <megamenu :left="i > 4"></megamenu>
+
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="banner">
+            <div class="banner__container my-container">
+                <div class="banner__content">
+                    <div class=" banner__content__line"></div>
+                    <p class="banner__content__text">THE BRAND<br><span class="banner__content__text__small">OF
+                            LUXERIOUS
+                            <span class="banner__content__text__small banner__content__text__red">FASHION</span></span>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="offers my-container">
+            <div class="offers__group">
+                <Offer index="1"></Offer>
+                <Offer index="2"></Offer>
+            </div>
+            <div class="offers__group">
+                <Offer index="3"></Offer>
+                <Offer index="4"></Offer>
+            </div>
+        </section>
+        <section class="fetured my-container">
+            <h2 class="fetured__heading">Fetured Items</h2>
+            <p class="fetured__text">Shop for items based on what we featured in this week</p>
+            <product-list ref="products"></product-list>
+        </section>
+        <section class="advantages my-container">
+            <div class="advantages__banner">
+                <img src="img/Banner-Women.png" alt="Banner-Women" class="advantages__banner__image">
+                <p class="advantages__banner__text">30% <span
+                        class="advantages__banner__text__red">OFFER</span><br><span
+                        class="advantages__banner__text__small">FOR WOMEN</span></p>
+            </div>
+            <Advantages></Advantages>
+        </section>
+        <section class="comment">
+            <div class="comment__fon">
+                <div class="comment__container my-container">
+                    <div class="comment__for-line">
+                        <figure class="comment__received">
+                            <img src="img/Comment-Women.png" alt="" class="comment__received__photo">
+                            <figcaption class="comment__received__content">
+                                <p class="comment__received__content__text">“Vestibulum quis porttitor dui! Quisque
+                                    viverra
+                                    nunc
+                                    mi,
+                                    a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                                <p class="comment__received__content__family">Bin Burhan</p>
+                                <p class="comment__received__content__country">Dhaka, Bd</p>
+                                <div class="comment__received__content__bar">
+                                    <div v-for="n in 3" class="comment__received__content__bar__item"></div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="comment__sent">
+                        <p class="comment__sent__text">SUBSCRIBE<br><span class="comment__sent__text__small">FOR OUR
+                                NEWLETTER AND PROMOTION</span></p>
+                        <form class="comment__sent__email">
+                            <input type="email" placeholder="Enter Your Email" class="comment__sent__email__enter">
+                            <button type="submit" class="comment__sent__email__submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <section class="footer__top my-container">
+                <article class="footer__top__brand">
+                    <a href="index.html" class="header__top__left__logo">
+                        <img src="img/Logo.png" alt="Logo">
+                        <p class="header__top__left__logo__text">BRAN<span
+                                class="header__top__left__logo__text__red">D</span>
+                        </p>
+                    </a>
+                    <p class="footer__top__brand__text">Objectively transition extensive data rather than cross
+                        functional
+                        solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits.
+                        Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.<br><br>
+                        Efficiently plagiarize 24/365 action items and focused infomediaries.<br>
+                        Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+                    </p>
+                </article>
+                <FooterMenu></FooterMenu>
+            </section>
+            <section class="footer__bottom">
+                <div class="footer__bottom__container my-container">
+                    <p class="footer__bottom__text">&copy; 2017 Brand All Rights Reserved.</p>
+                    <Network></Network>
+                </div>
+            </section>
+        </footer>
+    </div>
+
+    <script src="https://kit.fontawesome.com/31cd1bd6cf.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="./js/footer-menu.js"></script>
+    <script src="./js/advantages.js"></script>
+    <script src="./js/network.js"></script>
+    <script src="./js/offer.js"></script>
+    <script src="./js/browse.js"></script>
+    <script src="./js/megamenu.js"></script>
+    <script src="./js/cart.js"></script>
+    <script src="./js/products.js"></script>
+    <script src="./js/filter.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
